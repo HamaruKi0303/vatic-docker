@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  vatic:
+    build: .
+    ports:
+      - "8111:80"
+    volumes:
+      - $PWD/data:/root/vatic/data
+    command: /bin/bash -C /root/vatic/example.sh
+    tty: true
+    working_dir: /root/vatic

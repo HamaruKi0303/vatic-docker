@@ -4,7 +4,7 @@
 ID=currentvideo
 VIDEOPATH=/root/vatic/data/videos_in
 ANNOTATEDFRAMEPATH=/root/vatic/data/frames_in
-TURKOPS="--offline --title HelloTurk!"
+TURKOPS="--offline --title HelloTurk! --length 1000"
 LABEL_FILE=/root/vatic/data/labels.txt
 if [ -f "$LABEL_FILE" ]
 then
